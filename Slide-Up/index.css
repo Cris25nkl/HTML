@@ -19,7 +19,6 @@ h1{
     overflow: hidden;
     border: 1px solid #b1a044;
     background: #9fb957;
-    
 }
 
 .hid-box{
@@ -40,3 +39,22 @@ h1{
     top: 0;
 
 }
+
+.input-container {
+    position: relative;
+  }
+  
+  .custom-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #999;
+  }

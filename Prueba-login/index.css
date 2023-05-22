@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0.5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 40%);
+
+}
+
+
+.cont-imagenes{
+    overflow: hidden;
+    float: right;
+    flex: 1;
+    width: 75vw;
+    height: 100vh;
+    border: 1px solid #000;
+    border-radius: 6px;
+    
+}
+
+.logo{
+    padding: 11px;
+    width: 15rem;
+    height: 5rem;
+}
+.cont-imagenes img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.cont-formulario{
+    overflow: hidden;
+    text-align: flex;
+    float: left;
+    flex: 1;
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid #000;
+    border-radius: 10px;
+   
+}
+
+.cont-formulario h3{
+    font-family: bold, medium;
+    font-size: 30px;
+}
+
+.cont-formulario h5{
+    font-family: bold, medium;
+    font-size: 12px;
+}
+
+.cont-formulario h3, h5{
+    margin: 0;
+    padding: 12px;
+}
+
+
+.control, .control1{
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+
+.control1{   
+    width: 41.5%;
+}
+.control{
+    width: 90%;
+}
+
+.terminos{
+    
+    margin-left: 15px;
+    margin-bottom: 12px;
+    
+}
+
+
+
+.terminos2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    margin-left: 4%;
+    text-align: center;
+    width: 90%;
+    padding: 12px;
+    background-color: #d9e66a;
+    border: none;
+    font-family: bold;
+    font-size: 16px;
+}
+
+
+
